@@ -3,7 +3,6 @@
 ベースとなるCxImageのバージョンは7.0.2です。
 また、オリジナルコードにはOCX用とWinCE用のプロジェクトも含まれていますが、こちらは使用していません。
 ThumbViewerというオープンソースプログラムをビルド出来るようにするにあたり、中で使われていたCxImageライブラリもビルド環境のバージョンに合わせる必要がありました。公開されている最新のソースコードからVC++の各バージョンでビルド出来るように改修しました。今回は正常にビルド出来るようすることが目的で、ライブラリの内容については細かく調査しておりませんが、一緒にビルド出来るデモプログラム確認する限り非常に高機能なライブラリです。時間が出来たら、是非、中身の解析も行ってみたいと思います。
-実行可能なデモプログラムを同梱していますので、すぐに機能確認できます。
 The zlib/libpng Licenseに基づいてオリジナルソースを改修し再配布しています。
 
 This program is based on Davide Pizzolato's source code available at https://sourceforge.net/projects/cximage/ and has been modified to build on Visual C++ 2010, 2013, 2015, 2017, and 2019 versions. No additional features have been added.
